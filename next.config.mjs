@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+import "./src/env.js";
 
 const nextConfig = {
   /* config options here */
