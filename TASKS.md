@@ -13,13 +13,9 @@
 2. Implementiere eine Logik, die den Zugriff auf `/profile/settings` verbietet, wenn kein Auth-Cookie gesetzt ist.
 3. Leite den Nutzer stattdessen auf `/login` um.
 
----
-
 **Aufgabe 3: Feature Flag**
 1. Füge eine neue Variable `NEXT_PUBLIC_ENABLE_BETA` zu `.env` und `src/env.js` hinzu (Typ: Boolean oder String 'true'/'false').
 2. Nutze diese Variable auf der Startseite (`src/app/page.js`), um einen "Beta Feature"-Button anzuzeigen oder zu verstecken.
-
----
 
 **Aufgabe 4: Fix the Bug**
 *   Navigiere zu `/exercises/debug`.
